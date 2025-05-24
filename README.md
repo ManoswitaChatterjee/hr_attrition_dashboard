@@ -7,8 +7,8 @@ Dashboard Link - https://public.tableau.com/app/profile/manoswita.chatterjee/viz
 This Dashboard helps to analyze and derive insights into employee attrition trends, departments affected, exit reasons, and key employee and applicant KPIs using synthetic workforce data.
 
 ### Goal 
-1. **HR Attrition Dashboard:** Monitor and analyze employee turnover trends to identify high-risk areas, understand attrition and retention rates, and support data-driven retention strategies.
-2. **Recruitment Dashboard:** Track hiring performance, open positions, applicant details and other KPIS to understand recruitment funnel efficiency to help optimize talent acquisition efforts.
+1. **HR Attrition Dashboard:** Monitor and analyze employee turnover trends to identify high-risk areas, understand attrition and retention rates, and support data-driven retention strategies.  
+2. **Recruitment Dashboard:** Track hiring performance, open positions, applicant details and other KPIS to understand recruitment funnel efficiency to help optimize talent acquisition efforts.  
 3. **Applicant Details Dashboard:** Provide a detailed view of applicant profiles, application statuses, and qualification metrics to enhance candidate evaluation and selection.
 
 ### About the Dataset
@@ -66,10 +66,10 @@ It shows the top 5 Business units with the most employee count after attrition w
 
 ![Screenshot_37](https://github.com/user-attachments/assets/394e3338-f8e8-4516-8130-53eda144ae5c)
 
-a. **Gender -** To filter gender wise data
-b. **Department -** To filter data according to departments
-c. **Business Unit -** To filter data according to various Business units
-d. **Division -** To filter data based on employee designations.
+a. **Gender -** To filter gender wise data.  
+b. **Department -** To filter data according to departments.  
+c. **Business Unit -** To filter data according to various Business units.  
+d. **Division -** To filter data based on employee designations.  
 e. **State -** To filter state(USA)-wise data.
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
@@ -80,13 +80,13 @@ ________________________________________________________________________________
 ![Screenshot_36](https://github.com/user-attachments/assets/347905f7-aae1-4451-8f01-e7dea185dc92)
 
 
-1. **Applicant Count -** This is the total number of people who applied for various roles in the company.
+1. **Applicant Count -** This is the total number of people who applied for various roles in the company.  
    **Formula :** ``` Total applicants = COUNT([First Name]) ```
    
-2. **Avg. Expected Salary -** This shows the average salary expectations of people who applied for the company reagrdless of the post they applied for.
+2. **Avg. Expected Salary -** This shows the average salary expectations of people who applied for the company reagrdless of the post they applied for.  
    **Formula:** ``` AVG(Desired Salary) ```
 
-3. **Avg. Candidate Experience -** This KPI shows the average industry experience of the candidates who applied to the company.
+3. **Avg. Candidate Experience -** This KPI shows the average industry experience of the candidates who applied to the company.  
    **Formula:** ``` AVG(Years of Experience) ```
 
 ### Final Dashboard
@@ -115,9 +115,9 @@ This geographical visualization depits the total number of applicants from each 
 ![Screenshot_38](https://github.com/user-attachments/assets/b501e3ad-04f2-4f8a-a47b-f3d6da3ec39b)
 
 
-a. **Country -** To filter data based on the country of applicants.
-b. **Education Level -** This filters data based on the highest eduactional qualification of the applicants.
-c. **Gender -** To filter data according to the Gender of applicants.
+a. **Country -** To filter data based on the country of applicants.  
+b. **Education Level -** This filters data based on the highest eduactional qualification of the applicants.  
+c. **Gender -** To filter data according to the Gender of applicants.  
 d. **Status -** To filter data based on ethe status of their applications like "Applied", "In Review", "Interviewing" and so on.
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
@@ -140,13 +140,13 @@ The main purpose of this dashboard is to help recruiters figure out every detail
 
 
 
-a. **Applicant ID -** To filter data based on the country of applicants. You can directly put the applicant ID in the box and search up the details.
-b. **Applicant Name -** This filters data based on the applicant name.
-c. **Application Date -** To filter data according to the Date of submitting application by the applicants.
-d. **Country -** To filter data based on the country of applicants.
-e. **Gender -** To filter data according to the Gender of applicants.
-f. **Application Status -** To filter data based on ethe status of their applications like "Applied", "In Review", "Interviewing" and so on.
-g. **Education Level -** This filters data based on the highest eduactional qualification of the applicants.
+a. **Applicant ID -** To filter data based on the country of applicants. You can directly put the applicant ID in the box and search up the details.  
+b. **Applicant Name -** This filters data based on the applicant name.  
+c. **Application Date -** To filter data according to the Date of submitting application by the applicants.  
+d. **Country -** To filter data based on the country of applicants.  
+e. **Gender -** To filter data according to the Gender of applicants.  
+f. **Application Status -** To filter data based on ethe status of their applications like "Applied", "In Review", "Interviewing" and so on.  
+g. **Education Level -** This filters data based on the highest eduactional qualification of the applicants.  
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
 
