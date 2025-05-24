@@ -43,7 +43,7 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 ![Screenshot_31](https://github.com/user-attachments/assets/f449c90b-eee2-4d1c-befc-393f62e44a42)
 
 ### Insight:
-#### Distribution of Type of Employeesworking
+#### _Distribution of Type of Employees working_
 This visualization helps to show the percentage distribution and count of all the current employees' employeement type i.e. how many are full-time, part-time and temporary employees.
 
 #### Employee Gender ratio 
