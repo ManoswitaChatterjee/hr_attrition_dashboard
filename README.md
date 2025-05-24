@@ -16,7 +16,7 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 3. This dataset contains fictional employee and recruitment data to derive insights into employee attrition trends, overall employee count, applicant geographical distribution, recruitment performance, employee gender ratio and so on.
 
 ### Note - 
-![Screenshot_34](https://github.com/user-attachments/assets/722519d3-0d43-4528-b80f-681ccf4d7c25)
+![Screenshot_34](https://github.com/user-attachments/assets/722519d3-0d43-4528-b80f-681ccf4d7c25)  
 Use the icos on the left to navigate across all the dashboards. Hover over each icon to see which dashboard it points to.  
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
