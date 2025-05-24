@@ -66,11 +66,11 @@ It shows the top 5 Business units with the most employee count after attrition w
 
 ![Screenshot_37](https://github.com/user-attachments/assets/394e3338-f8e8-4516-8130-53eda144ae5c)
 
-**Gender -** To filter gender wise data 
-**Department -** To filter data according to departments
-**Business Unit -** To filter data according to various Business units
-**Division -** To filter data based on employee designations.
-**State -** To filter state(USA)-wise data.
+a. **Gender -** To filter gender wise data
+b. **Department -** To filter data according to departments
+c. **Business Unit -** To filter data according to various Business units
+d. **Division -** To filter data based on employee designations.
+e. **State -** To filter state(USA)-wise data.
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
 
