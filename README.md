@@ -87,7 +87,7 @@ ________________________________________________________________________________
    **Formula:** ``` AVG(Desired Salary) ```
 
 3. **Avg. Candidate Experience -** This KPI shows the average industry experience of the candidates who applied to the company.
-   **Formula:** ``` AVG(Years of Experience) ```
+**Formula:** ``` AVG(Years of Experience) ```
 
 ### Final Dashboard
 
