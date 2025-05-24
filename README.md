@@ -1,5 +1,5 @@
 # HR ATTRITION DASHBOARD
-It is an Interactive Tableau workbook that contains 3 dashboards viz. - Attrition Dashboard, Recruitment Dashboard and Applicant Dashboard to help analyze and understand over attrition, retention and recruitment metrics for the company to help management make better decisions.
+It is an Interactive Tableau workbook that contains 3 dashboards viz. - Attrition Dashboard, Recruitment Dashboard and Applicant Dashboard to help analyze and understand over attrition, retention and recruitment metrics for the company to help management make better decisions. 
 
 Dashboard Link - https://public.tableau.com/app/profile/manoswita.chatterjee/viz/HRDashboard_17452484913400/AttritionDashboard 
 
