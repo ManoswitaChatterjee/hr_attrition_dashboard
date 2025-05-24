@@ -15,6 +15,10 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 1. The data used in this dashboard is from the "Employee/HR Dataset", available in Kaggle (https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset?select=employee_data.csv)(https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset?select=recruitment_data.csv)
 3. This dataset contains fictional employee and recruitment data to derive insights into employee attrition trends, overall employee count, applicant geographical distribution, recruitment performance, employee gender ratio and so on.
 
+### Note - 
+![Screenshot_34](https://github.com/user-attachments/assets/722519d3-0d43-4528-b80f-681ccf4d7c25)
+Use the icos on the left to navigate across all the dashboards. Hover over each icon to see which dashboard it points to.  
+
 _______________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Dashboard 1 - HR ATTRITION DASHBOARD
@@ -152,12 +156,10 @@ ________________________________________________________________________________
 
 ### Conclusion 
 
-The Hospital-dashboard provides a analysis of both hospital and patient data using the sample kaggle data set. The data is first cleaned and made appropriate for analysis and the vizualized into the dashboard using Power BI. The report highlighted essential performance metrics and uncovered valuable insights into hospital utilization, patient trends, and operational efficiency.
+The HR Attrition Dashboard offers a detailed analysis of the employee and recruitment data of the company. The data called was fictional and was used to build a workbook in Tableau to visualize key HR metrics such as attrition rates, employee demographics, recruitment funnel performance, and applicant details allowing HR teams to make informed, data-driven workforce decisions for the better of the company.
 
-#### Recommendations and Key Takeaways
+#### Insights and Key metrices
 
-1. Unsurprisingly 65+ people are hospitalized for the most number of days and thus need more attention and regular check-ups.
-2. Patients with 0-18 age have higher bill amount which may indicate that they are mostly hospitalized for some serious injury or immediate operations.
-3. The KPI "Avg. Bill (Usd) indicates that a patient if hospitalized can expect an average bill amount of $25,540. Ofcourse this data varies hospital to hospital and can be checked using the "Hospital" filter.
-
-This project helps visualize data and uncover insights, enabling both patients and hospitals to understand key metrics and support better decision-making for patient care and hospital operations.
+1. The production department maybecome slightly understaffed as the production department shows the highest attrition with 952 employees leaving, contributing significantly to the overall 47.97% attrition rate. This indicates a potential area of concern that may require more recruitment in this departmanet and implementation of better employee retention strategies.  
+2. The recruitment and application numbers peak in July. If this trend continues in the next year, it could help in planning future hiring campaigns as then it would be wise to plan more hiring drives in July.  
+3. There is a uniform applicant geographical spread indicationg that the recruitment is happening internationally and is attracting candidates globally.  
