@@ -22,21 +22,20 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 ![Screenshot_35](https://github.com/user-attachments/assets/7a45cc5c-dae2-4e65-9fa0-60c090e6843f)
 
 
-1. **Current Employees -** This KPI represents the total number of patients hospitalized in the hospital.
-   **Formula :** SUM(Total employees) where
-   ``` Total employees = IF ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
+1. **Current Employees -** This is the total number of employees curerently employed by the company.
+   **Formula :** ``` Total employees = IF ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
    
-3. **Total Attrition -** This KPI lists the average bill charged per person in the hospital i.e the avergae bill one can expect if being hospitalized.
-   **Formula:** Average(Billing Amount)
+2. **Total Attrition -** This shows the number of employeed attrited by the company.
+   **Formula:** ``` Attrited employees = IF NOT ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
 
-2. **Attrition Rate -** This KPI lists the average bill charged per person in the hospital i.e the avergae bill one can expect if being hospitalized.
-   **Formula:** Average(Billing Amount)
+3. **Attrition Rate -** This KPI the percentage of people attrited from the overall company employee strength.
+   **Formula:** ``` Attrition rate = ([Attrition] / [Employee Count]) ``` and
+    ``` Attrition = count(IF NOT ISNULL([Exit Date]) THEN [Employee Full Name] END) ```
 
-2. **Dept. Count -** This KPI lists the average bill charged per person in the hospital i.e the avergae bill one can expect if being hospitalized.
-   **Formula:** Average(Billing Amount)
+4. **Dept. Count -** This KPI lists the total number of departments in the company.
+   **Formula:** ``` Total Dept = COUNTD([Department Type]) ```
 
-2. **Avg. Employee Rating -** This KPI lists the average bill charged per person in the hospital i.e the avergae bill one can expect if being hospitalized.
-   **Formula:** Average(Billing Amount)
+5. **Avg. Employee Rating -** This displays the average ratings of all the current working out of 5.
    
 
 ### Final Dashboard
