@@ -15,6 +15,7 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 1. The data used in this dashboard is from the "Employee/HR Dataset", available in Kaggle (https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset?select=employee_data.csv)(https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset?select=recruitment_data.csv)
 3. This dataset contains fictional employee and recruitment data to derive insights into employee attrition trends, overall employee count, applicant geographical distribution, recruitment performance, employee gender ratio and so on.
 
+_______________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Dashboard 1 - HR ATTRITION DASHBOARD
 ### KPIs 
@@ -46,22 +47,67 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 #### _Distribution of Type of Employees working_
 This visualization helps to show the percentage distribution and count of all the current employees' employeement type i.e. how many are full-time, part-time and temporary employees.
 
-#### Employee Gender ratio 
+#### _Employee Gender ratio_ 
 This pie cahrt shows the percenatge plus the numbers of the employee division w.r.t to gender amidst the current working employees after attrition. In here we can clearly see that there is a significantly larger female employee population in the company at 55.86%.
 
-#### Attritition rate / Dept
+#### _Attritition rate / Dept_
 It shows details of number of attrition and retention distributed across all 6 departments plus department wise attrition rate as well. From this we can see that the highest attrition has taken place in 'Executive Office' with an attrition rate of 66.67%.
 
-#### Attrition rate / Business Unit
+#### _Attrition rate / Business Unit_
 This shows a similar details like the previous visualization but distributed among the various Business units of the company.
 
-#### Employee Performance across Dept
+#### _Employee Performance across Dept_
 This visuallization shows the existing employee performance across departments with Production team not only having the highest employee count but also having the most eomployees performing decent with their performance being under "Fully Meets"
 
-#### Current Employee Count / Business Unit
+#### _Current Employee Count / Business Unit_
 It shows the top 5 Business units with the most employee count after attrition with CCDR leading at 169 employees. 
 
+_______________________________________________________________________________________________________________________________________________________________________________________________
 
+## Dashboard 1 - HR ATTRITION DASHBOARD
+### KPIs 
+
+![Screenshot_35](https://github.com/user-attachments/assets/7a45cc5c-dae2-4e65-9fa0-60c090e6843f)
+
+
+1. **Current Employees -** This is the total number of employees curerently employed by the company.
+   **Formula :** ``` Total employees = IF ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
+   
+2. **Total Attrition -** This shows the number of employeed attrited by the company.
+   **Formula:** ``` Attrited employees = IF NOT ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
+
+3. **Attrition Rate -** This KPI the percentage of people attrited from the overall company employee strength.
+   **Formula:** ``` Attrition rate = ([Attrition] / [Employee Count]) ``` and
+    ``` Attrition = count(IF NOT ISNULL([Exit Date]) THEN [Employee Full Name] END) ```
+
+4. **Dept. Count -** This KPI lists the total number of departments in the company.
+   **Formula:** ``` Total Dept = COUNTD([Department Type]) ```
+
+5. **Avg. Employee Rating -** This displays the average ratings of all the current working out of 5.
+   
+
+### Final Dashboard
+
+![Screenshot_31](https://github.com/user-attachments/assets/f449c90b-eee2-4d1c-befc-393f62e44a42)
+
+### Insight:
+#### _Distribution of Type of Employees working_
+This visualization helps to show the percentage distribution and count of all the current employees' employeement type i.e. how many are full-time, part-time and temporary employees.
+
+#### _Employee Gender ratio_ 
+This pie cahrt shows the percenatge plus the numbers of the employee division w.r.t to gender amidst the current working employees after attrition. In here we can clearly see that there is a significantly larger female employee population in the company at 55.86%.
+
+#### _Attritition rate / Dept_
+It shows details of number of attrition and retention distributed across all 6 departments plus department wise attrition rate as well. From this we can see that the highest attrition has taken place in 'Executive Office' with an attrition rate of 66.67%.
+
+#### _Attrition rate / Business Unit_
+This shows a similar details like the previous visualization but distributed among the various Business units of the company.
+
+#### _Employee Performance across Dept_
+This visuallization shows the existing employee performance across departments with Production team not only having the highest employee count but also having the most eomployees performing decent with their performance being under "Fully Meets"
+
+#### _Current Employee Count / Business Unit_
+It shows the top 5 Business units with the most employee count after attrition with CCDR leading at 169 employees.
 
 
 
