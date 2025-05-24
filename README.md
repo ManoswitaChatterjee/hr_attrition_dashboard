@@ -43,15 +43,23 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 ![Screenshot_31](https://github.com/user-attachments/assets/f449c90b-eee2-4d1c-befc-393f62e44a42)
 
 ### Insight:
-This Dashboard helps users to understand the Attrition and retention data of the company.
+#### Distribution of Type of Employeesworking
+This visualization helps to show the percentage distribution and count of all the current employees' employeement type i.e. how many are full-time, part-time and temporary employees.
 
-### Analysis
-This dashboard aims to provide a detailed analysis of hospital performance and patient-related trends using key healthcare indicators.
+#### Employee Gender ratio 
+This pie cahrt shows the percenatge plus the numbers of the employee division w.r.t to gender amidst the current working employees after attrition. In here we can clearly see that there is a significantly larger female employee population in the company at 55.86%.
 
-The dashboard offers a broad understanding of patient admissions, hospitalization duration, and overall hospital metrices. By highlighting these areas, the report supports better understanding for people like - what bill they might expect, best insurance provider and so on.
+#### Attritition rate / Dept
+It shows details of number of attrition and retention distributed across all 6 departments plus department wise attrition rate as well. From this we can see that the highest attrition has taken place in 'Executive Office' with an attrition rate of 66.67%.
 
+#### Attrition rate / Business Unit
+This shows a similar details like the previous visualization but distributed among the various Business units of the company.
 
+#### Employee Performance across Dept
+This visuallization shows the existing employee performance across departments with Production team not only having the highest employee count but also having the most eomployees performing decent with their performance being under "Fully Meets"
 
+#### Current Employee Count / Business Unit
+It shows the top 5 Business units with the most employee count after attrition with CCDR leading at 169 employees. 
 
 
 
