@@ -48,7 +48,7 @@ ________________________________________________________________________________
 This visualization helps to show the percentage distribution and count of all the current employees' employeement type i.e. how many are full-time, part-time and temporary employees.
 
 #### _Employee Gender ratio_ 
-This pie cahrt shows the percenatge plus the numbers of the employee division w.r.t to gender amidst the current working employees after attrition. In here we can clearly see that there is a significantly larger female employee population in the company at 55.86%.
+This pie chart shows the percenatge plus the numbers of the employee division w.r.t to gender amidst the current working employees after attrition. In here we can clearly see that there is a significantly larger female employee population in the company at 55.86%.
 
 #### _Attritition rate / Dept_
 It shows details of number of attrition and retention distributed across all 6 departments plus department wise attrition rate as well. From this we can see that the highest attrition has taken place in 'Executive Office' with an attrition rate of 66.67%.
@@ -61,6 +61,15 @@ This visuallization shows the existing employee performance across departments w
 
 #### _Current Employee Count / Business Unit_
 It shows the top 5 Business units with the most employee count after attrition with CCDR leading at 169 employees. 
+
+### Filters
+
+![Screenshot_37](https://github.com/user-attachments/assets/394e3338-f8e8-4516-8130-53eda144ae5c)
+**Gender -** To filter gender wise data 
+**Department -** To filter data according to departments
+**Business Unit -** To filter data according to various Business units
+**Division -** To filter data based on employee designations.
+**State -** To filter state(USA)-wise data.
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
 
