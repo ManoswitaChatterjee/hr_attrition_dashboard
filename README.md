@@ -23,17 +23,17 @@ ________________________________________________________________________________
 ![Screenshot_35](https://github.com/user-attachments/assets/7a45cc5c-dae2-4e65-9fa0-60c090e6843f)
 
 
-1. **Current Employees -** This is the total number of employees curerently employed by the company.
+1. **Current Employees -** This is the total number of employees curerently employed by the company.  
    **Formula :** ``` Total employees = IF ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
    
-2. **Total Attrition -** This shows the number of employeed attrited by the company.
+2. **Total Attrition -** This shows the number of employeed attrited by the company.  
    **Formula:** ``` Attrited employees = IF NOT ISNULL([Exit Date]) THEN 1 ELSE 0 END ```
 
-3. **Attrition Rate -** This KPI shows the percentage of people attrited from the overall company employee strength.
-   **Formula:** ``` Attrition rate = ([Attrition] / [Employee Count]) ``` and
+3. **Attrition Rate -** This KPI shows the percentage of people attrited from the overall company employee strength.  
+   **Formula:** ``` Attrition rate = ([Attrition] / [Employee Count]) ``` and  
     ``` Attrition = count(IF NOT ISNULL([Exit Date]) THEN [Employee Full Name] END) ```
 
-4. **Dept. Count -** This KPI lists the total number of departments in the company.
+4. **Dept. Count -** This KPI lists the total number of departments in the company.  
    **Formula:** ``` Total Dept = COUNTD([Department Type]) ```
 
 5. **Avg. Employee Rating -** This displays the average ratings of all the current working out of 5.
@@ -87,7 +87,7 @@ ________________________________________________________________________________
    **Formula:** ``` AVG(Desired Salary) ```
 
 3. **Avg. Candidate Experience -** This KPI shows the average industry experience of the candidates who applied to the company.
-**Formula:** ``` AVG(Years of Experience) ```
+   **Formula:** ``` AVG(Years of Experience) ```
 
 ### Final Dashboard
 
