@@ -17,7 +17,7 @@ This Dashboard helps to analyze and derive insights into employee attrition tren
 
 ### Note - 
 ![Screenshot_34](https://github.com/user-attachments/assets/722519d3-0d43-4528-b80f-681ccf4d7c25)  
-Use the icos on the left to navigate across all the dashboards. Hover over each icon to see which dashboard it points to.  
+Use the icons on the left to navigate across all the dashboards. Hover over each icon to see which dashboard it points to.  
 
 _______________________________________________________________________________________________________________________________________________________________________________________________
 
